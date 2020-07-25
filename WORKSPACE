@@ -22,8 +22,15 @@ git_repository(
 maven_install(
     artifacts = [
         "com.google.protobuf:protobuf-java:3.5.1",
+        "org.rocksdb:rocksdbjni:5.14.2",
         "junit:junit:4.12",
+        "com.thetransactioncompany:jsonrpc2-server:1.11",
+        "commons-pool:commons-pool:1.6",
+        "commons-dbcp:commons-dbcp:1.4",
+        "mysql:mysql-connector-java:6.0.6",
         "com.google.guava:guava:28.1-jre",
+        "com.amazonaws:aws-java-sdk:1.11.765",
+        "org.elasticsearch.client:elasticsearch-rest-high-level-client:7.6.2",
     ],
     repositories = [
         "https://repo1.maven.org/maven2",
